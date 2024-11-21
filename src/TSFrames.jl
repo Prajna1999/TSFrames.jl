@@ -18,6 +18,7 @@ import Base.show
 import Base.summary
 import Base.size
 import Base.vcat
+import Base.setindex!
 
 import Dates.Period
 
@@ -37,6 +38,7 @@ export TSFrame,
     endpoints,
     first,
     getindex,
+    setindex!,
     head,
     index,
     isregular,
@@ -80,7 +82,7 @@ export TSFrame,
 
 include("TSFrame.jl")
 include("utils.jl")
-
+include("setindex.jl")
 include("apply.jl")
 include("diff.jl")
 include("endpoints.jl")
