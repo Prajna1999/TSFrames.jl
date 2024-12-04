@@ -82,11 +82,11 @@ export TSFrame,
 
 include("TSFrame.jl")
 include("utils.jl")
-include("setindex.jl")
 include("apply.jl")
 include("diff.jl")
 include("endpoints.jl")
 include("getindex.jl")
+include("setindex.jl")
 include("getproperty.jl")
 include("join.jl")
 include("lag.jl")
